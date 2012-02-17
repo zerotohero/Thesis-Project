@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom StateMachine
+DEFAULT_FILE atom Fetch_Control_entity.vhd

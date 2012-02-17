@@ -1,0 +1,23 @@
+# //  ModelSim SE 10.0b May  5 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L SAYEH_lib -l transcript.txt -i -multisource_delay latest -nopsl -t ns +typdelays SAYEH_lib.ALU(Behavior) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.alu(behavior)#1
+#  
+force -freeze sim:/alu/op1 1111111111111111 0
+force -freeze sim:/alu/op2 0000000000001000 0
+force -freeze sim:/alu/selector 0101 0
+force -freeze sim:/alu/carry_in 0 0
+run

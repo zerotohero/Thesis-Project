@@ -1,0 +1,1 @@
+ -L SAYEH_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays -nopsl SAYEH_lib.ALU(Behavior)

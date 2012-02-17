@@ -1,0 +1,166 @@
+# Info: [9566]: Logging session transcript to file C:/MentorGraphics/HDS2010.2a/bin/precision.log
+//  Precision RTL Synthesis 2011a.61 (Production Release) Fri May 20 13:37:48 PDT 2011
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2011, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 7 Christopher@CJ  6.01.7600 x86
+//  
+//  Start time Tue Feb 07 17:46:31 2012
+# -------------------------------------------------
+# Info: [9566]: Logging session transcript to file C:/MentorGraphics/HDS2010.2a/bin/precision.log
+# COMMAND: source "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/hds/precision.tcl"
+# Info:  HDL Designer Synthesis run started
+# Info: [9574]: Input directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh
+# Info: [9569]: Moving session transcript to file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/precision.log
+# Info: [9575]: Results directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_1/
+# Info: [9565]: Appending project transcript to file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_1/precision.log
+# Info: [9565]: Appending suppressed messages transcript to file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation Sayeh_impl_1 in project C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh.psp.
+# Info: [9531]: Created directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2.
+# Info: [9554]: Created implementation Sayeh_impl_2 in project C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh.psp.
+# Info: [9575]: Results directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/
+# Info: [9566]: Logging project transcript to file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/precision.log.suppressed
+# Info: [9550]: Activated implementation Sayeh_impl_2 in project C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh.psp.
+# Info: [15296]: Setting up the design to use synthesis library "cycloneii.syn"
+# Info: [572]: The global max fanout is currently set to 1000 for Altera - Cyclone II.
+# Info: [15320]: Setting Part to: "EP2C35F672C".
+# Info: [15321]: Setting Process to: "6".
+# Info: [3022]: Reading file: C:/PROGRA~1/MENTOR~1/PRECIS~1.61/Mgc_home/pkgs/psr/techlibs/cycloneii.syn.
+# Info: [629]: Loading library initialization file C:/PROGRA~1/MENTOR~1/PRECIS~1.61/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2011a.9
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/Controller.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/ArithmeticUnit.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/AddressLogic.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/ProgramCounter.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/AddressingUnit.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/InstrunctionRegister.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/RegisterFile.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/StatusRegister.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/WindowPointer.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/DataPath.v" ...
+# Info: [41002]: Analyzing input file "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/sayeh_struct.v" ...
+# Info: [652]: Current working directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2011a.9
+# Info: [40000]: Last compiled on May 11 2011 20:44:50
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2011a.9
+# Info: [40000]: Last compiled on May 11 2011 20:50:54
+# Info: [44512]: Initializing...
+# Info: [44506]: Module ProgramCounter: Pre-processing...
+# Info: [44506]: Module AddressLogic: Pre-processing...
+# Info: [44506]: Module ArithmeticUnit: Pre-processing...
+# Info: [45251]: Built-in hardware memory core inferred for variable ': "RegisterFile.MemoryFile depth = 8, width = 16"'.
+# Info: [44506]: Module RegisterFile: Pre-processing...
+# Info: [44506]: Module InstrunctionRegister: Pre-processing...
+# Info: [44506]: Module StatusRegister: Pre-processing...
+# Info: [44506]: Module WindowPointer: Pre-processing...
+# Info: [44506]: Module DataPath: Pre-processing...
+# Info: [44506]: Module controller: Pre-processing...
+# Info: [45144]: Extracted FSM in module controller, with state variable = Pstate[3:0], async set/reset state(s) = (none), number of states = 11.
+# Info: [45144]: Re-encoding 11 state FSM as "onehot".
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	                               0000	                   00000000001
+# Info: [40000]: FSM:	    1	                               0001	                   00000000010
+# Info: [40000]: FSM:	    2	                               0010	                   00000000100
+# Info: [40000]: FSM:	    3	                               0011	                   00000001000
+# Info: [40000]: FSM:	    4	                               0100	                   00000010000
+# Info: [40000]: FSM:	    5	                               0110	                   00000100000
+# Info: [40000]: FSM:	    6	                               1001	                   00001000000
+# Info: [40000]: FSM:	    7	                               0101	                   00010000000
+# Info: [40000]: FSM:	    8	                               0111	                   00100000000
+# Info: [40000]: FSM:	    9	                               1010	                   01000000000
+# Info: [40000]: FSM:	   10	                               1000	                   10000000000
+# Info: [40000]: This is not a Safe FSM as the default branch is being ignored. To make the FSM truly safe, please specify the attribute safe_fsm on the state variable
+# Info: [44508]: Module ProgramCounter: Compiling...
+# Info: [44508]: Module AddressLogic: Compiling...
+# Info: [44508]: Module AddressingUnit: Compiling...
+# Info: [44508]: Module ArithmeticUnit: Compiling...
+# Info: [44508]: Module RegisterFile: Compiling...
+# Info: [44508]: Module InstrunctionRegister: Compiling...
+# Info: [44508]: Module StatusRegister: Compiling...
+# Info: [44508]: Module WindowPointer: Compiling...
+# Info: [44508]: Module DataPath: Compiling...
+# Info: [44508]: Module controller: Compiling...
+# Warning: [45784]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/Controller.v", line 98: Module controller, Net(s) ShadowEn: Signal(s) not part of the sensitivity list of this block, are being read. This may lead to simulation mismatch.
+# Info: [44523]: Root Module Sayeh: Compiling...
+# Info: [45193]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/InstrunctionRegister.v", line 9: Net in[15:12] is unused after optimization
+# Info: [45193]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/InstrunctionRegister.v", line 9: Net in[9:8] is unused after optimization
+# Info: [45307]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/InstrunctionRegister.v", line 14: The driving logic for the net out[15:12] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/InstrunctionRegister.v", line 14: The driving logic for the net out[9:8] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/DataPath.v", line 86: The driving logic for the net Instruction[15:12] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/DataPath.v", line 86: The driving logic for the net Instruction[9:8] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45252]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/Controller.v", line 505: Inferred rom instance 'rtlcI6' of type 'rom_28_6_64_8'.
+# Info: [44846]: Rebalanced Expression Tree...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44841]: Counter Inferencing === Detected : 1, Inferred (Modgen/Selcounter/AddSub) : 0 (0 / 0 / 0), AcrossDH (Merged/Not-Merged) : (0 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 0), Local Vars : 1 ===
+# Info: [44856]: Total lines of RTL compiled: 1073.
+# Info: [44835]: Total CPU time for compilation: 3.2 secs.
+# Info: [44513]: Overall running time for compilation: 8.0 secs.
+# Info: [652]: Current working directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2.
+# Info: [9086]: Disconnecting net:dp.Instruction(12) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.Instruction_triBus3(12).
+# Info: [9086]: Disconnecting net:dp.Instruction(13) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.Instruction_triBus3(13).
+# Info: [9086]: Disconnecting net:dp.Instruction(14) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.Instruction_triBus3(14).
+# Info: [9086]: Disconnecting net:dp.Instruction(15) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.Instruction_triBus3(15).
+# Info: [9086]: Disconnecting net:dp.IR.out(8) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus2(8).
+# Info: [9086]: Disconnecting net:dp.IR.out(9) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus2(9).
+# Info: [9086]: Disconnecting net:dp.IR.out(12) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus4(12).
+# Info: [9086]: Disconnecting net:dp.IR.out(13) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus4(13).
+# Info: [9086]: Disconnecting net:dp.IR.out(14) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus4(14).
+# Info: [9086]: Disconnecting net:dp.IR.out(15) from port:.I1.ix1.out. Net is multiply driven by a disabled tristate as well as by instance:dp.IR.out_triBus4(15).
+# Info: [15326]: Doing rtl optimizations.
+# Info: [655]: Finished compiling design.
+# Info: [652]: Current working directory: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2.
+# Info: [4556]: instance:dp.AU.PC Instance is flattened in hierarchical block view:.work.AddressingUnit.INTERFACE.
+# Info: [4556]: instance:dp.AU.AL Instance is flattened in hierarchical block view:.work.AddressingUnit.INTERFACE.
+# Info: [4556]: instance:dp.IR Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:dp.SR Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:dp.WP Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:dp.RF Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:dp.AU Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:dp.AL Instance is flattened in hierarchical block view:.work.DataPath_unfolded0_notri.INTERFACE_unfold_989.
+# Info: [4556]: instance:ctrl Instance is flattened in hierarchical block view:.work.Sayeh.INTERFACE.
+# Info: [4556]: instance:dp Instance is flattened in hierarchical block view:.work.Sayeh.INTERFACE.
+# Info: [11008]: "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/sayeh_struct.v", line 92: Using 2 levels of output pipelining instead of 0 may improve the performance of multiplier instance:dp_AL_aluout_multu16_0i1
+# Info: [15002]: Optimizing design view:.work.Sayeh.INTERFACE
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(15) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(14) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(13) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(12) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(11) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(10) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(9) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(8) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(7) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(6) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(5) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(4) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(3) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(2) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(1) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: [1619]: The internal tri-state driving net dp_AddressUnitRSideBus(0) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Info: [1620]: Number of tristates replaced by buffers: 16.
+# Info: [3027]: Writing file: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.edf.
+# Info: Info, Writing xrf file 'C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.xrf'
+# Info: [3027]: Writing file: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.xrf.
+# Info: [3027]: Writing file: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.vqm.
+# Info: Warning, Moving C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.xrf to C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/mgc_old_Sayeh.xrf as C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.xrf exists
+# Info: [3027]: Writing file: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.xrf.
+# Info: -- Writing file C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh_impl_2/Sayeh.tcl
+# Info: exq_pr_compile_project gen_vcf Sayeh 1
+# Info: [655]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 12.5 s secs.
+# Info: [11020]: Overall running time for synthesis: 14.0 s secs.
+# Info:  HDL Designer Synthesis run finished
+source "C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/hds/precision.tcl"
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Sayeh_impl_2.
+# Info: [9530]: Closed project: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/ps/Sayeh/Sayeh.psp.
+close_project -discard
+exit -force

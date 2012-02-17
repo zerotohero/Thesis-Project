@@ -1,0 +1,7 @@
+Inferred ROM
+------------
+  1. Instance: rtlc_new_reduced_rom_I5
+    File: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/Controller.v , Net: rtlc_IR_on_HOpndBus_1n28ss1
+    port 1  address width: 6
+    port 1  data width: 28
+
