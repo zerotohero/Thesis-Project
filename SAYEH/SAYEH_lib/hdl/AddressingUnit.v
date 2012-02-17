@@ -3,6 +3,8 @@
 //----------------------------------------------------------------------
 // Addressing Unit
 
+//Added this comment as a test
+
 `timescale 1 ns /1 ns
 
 module AddressingUnit (
