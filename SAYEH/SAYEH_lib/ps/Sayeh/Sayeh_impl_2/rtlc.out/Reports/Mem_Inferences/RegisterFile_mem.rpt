@@ -1,0 +1,11 @@
+Inferred RAM
+------------
+  1. Instance: rtlc_new_ram_I3
+    File: C:/Users/Christopher/Documents/HDL Designs/HDS/SAYEH/SAYEH_lib/hdl/RegisterFile.v , Net: MemoryFile, Type: single port
+    port 1  read-write
+    port 1  address width: 3
+    port 1  data width: 16
+    port 2  read
+    port 2  address width: 3
+    port 2  data width: 16
+

@@ -1,0 +1,12 @@
+module mux_64u_6u (a, b, d);
+input [63 : 0] a;
+input [5 : 0] b;
+output d;
+
+// pragma attribute mux_64u_6u ikos_rtlc$GENERIC mux
+// pragma attribute mux_64u_6u ikos_rtlc$size 64
+// pragma attribute mux_64u_6u ikos_rtlc$signed false
+
+
+endmodule
+

@@ -1,0 +1,51 @@
+//  Precision RTL Synthesis 2011a.61 (Production Release) Fri May 20 13:37:48 PDT 2011
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2011, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 7 Christopher@CJ  6.01.7600 x86
+//  
+//  Start time Tue Feb 07 00:40:13 2012
+
+***************************************************************
+Device Utilization for EP2C35F672C
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               39      475       8.21%
+LUTs                              792     33216     2.38%
+Registers                         160     33216     0.48%
+Memory Bits                       0       483840    0.00%
+DSP block 9-bit elems             1       70        1.43%
+---------------------------------------------------------------
+
+***********************************************
+
+Library: work    Cell: Sayeh    View: INTERFACE
+
+***********************************************
+
+  Cell                   Library  References     Total Area
+
+ GND                     cycloneii     1 x
+ VCC                     cycloneii     1 x
+ cycloneii_io            cycloneii    39 x      1     39 IOs
+ cycloneii_lcell_comb    cycloneii   792 x      1    792 LUTs
+ cycloneii_lcell_ff      cycloneii   160 x      1    160 Registers
+ cycloneii_mac_mult      cycloneii     1 x
+ cycloneii_mac_out       cycloneii     1 x
+
+ Number of ports :                      39
+ Number of nets :                     1093
+ Number of instances :                 995
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of DSP block 9-bit elems :       1
+ Number of IOs :                        39
+ Number of LUTs :                      792
+ Number of Registers :                 160
+ Number of accumulated instances :     995

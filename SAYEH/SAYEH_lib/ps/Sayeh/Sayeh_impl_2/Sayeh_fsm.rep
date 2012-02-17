@@ -1,0 +1,33 @@
+
+                                FSM EXTRACTION ANALYSIS                         
+                                =======================                         
+
+
+~~~~~~~~~~~~~~~~~~~~
+Module : controller
+~~~~~~~~~~~~~~~~~~~~
+Number of FSMs Extracted : 1
+
+1.
+--------------------------------------------------
+Number of States                : 11
+Primary State Variable          : Pstate[3:0]
+Other State Variable(s)         : 1) Nstate[3:0]
+Async set/reset state(s)        : (none)
+Re-encoding Scheme              : ONEHOT 
+FSM: Info, state encoding table:
+FSM:	Index	                            Literal	                      Encoding
+FSM:	    0	                               0000	                   00000000001
+FSM:	    1	                               0001	                   00000000010
+FSM:	    2	                               0010	                   00000000100
+FSM:	    3	                               0011	                   00000001000
+FSM:	    4	                               0100	                   00000010000
+FSM:	    5	                               0110	                   00000100000
+FSM:	    6	                               1001	                   00001000000
+FSM:	    7	                               0101	                   00010000000
+FSM:	    8	                               0111	                   00100000000
+FSM:	    9	                               1010	                   01000000000
+FSM:	   10	                               1000	                   10000000000
+
+
+

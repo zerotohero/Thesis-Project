@@ -1,0 +1,15 @@
+[ModelSim]
+SAYEH_lib = $HDS_PROJECT_DIR/SAYEH_lib/work
+[Precision]
+SAYEH_lib = $HDS_PROJECT_DIR\SAYEH_lib\ps
+[hdl]
+SAYEH_lib = $HDS_PROJECT_DIR/SAYEH_lib/hdl
+[hds]
+SAYEH_lib = $HDS_PROJECT_DIR/SAYEH_lib/hds
+[hds_settings]
+default_library = SAYEH_lib
+version = 2
+[library_type]
+SAYEH_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
