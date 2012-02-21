@@ -2,7 +2,7 @@
 //--SAYEH (Simple Architecture Yet Enough Hardware) CPU
 //----------------------------------------------------------------------
 //SAYEH
-//hey
+//This comment didn't need to be here
 
 `timescale 1 ns /1 ns
 
