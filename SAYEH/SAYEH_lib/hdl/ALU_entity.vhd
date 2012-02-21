@@ -7,6 +7,9 @@
 --
 -- using Mentor Graphics HDL Designer(TM) 2010.2a (Build 7)
 --
+
+--alu comment to master
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_signed.all;
