@@ -28,7 +28,7 @@ ARCHITECTURE StateMachine OF Fetch_Control IS
       END IF;
     END PROCESS;
     
-  PROCESS (stall, mdelay, reset, int, current_state)  --next state
+  PROCESS (stall, mdelay, reset, current_state)  --next state
     BEGIN
       CASE current_state IS
       WHEN Sreset =>

@@ -12,13 +12,13 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 ENTITY Fetch_Control IS
-  PORT (reset, int, stall, mdelay, jump, clock : IN std_logic;
-    pcm, mam, im : OUT std_logic_vector(1 DOWNTO 0);
-    pcvm : OUT std_logic);
+  PORT (reset, stall, mdelay, jump, clock : IN std_logic;
+    pcm : OUT std_logic_vector(1 DOWNTO 0);
+    pcvm, im : OUT std_logic);
 END ENTITY Fetch_Control;
 
 ARCHITECTURE StateMachine OF Fetch_Control IS
-  TYPE state IS (Sreset, Sint, Srun);
+  TYPE state IS (Sreset, Srun);
   SIGNAL current_state, next_state : state;
   BEGIN
   PROCESS (clock)   --state transition
@@ -38,20 +38,9 @@ ARCHITECTURE StateMachine OF Fetch_Control IS
           next_state <= Srun;
         END IF;
         
-      WHEN Sint =>
-        IF (reset = '1') THEN
-          next_state <= Sreset;
-        ELSIF ((int = '1') or (mdelay = '1') or (stall = '1')) THEN
-          next_state <= Sint;
-        ELSE
-          next_state <= Srun;
-        END IF;
-        
       WHEN Srun =>
         IF (reset = '1') THEN
           next_state <= Sreset;
-        ELSIF (int = '1') THEN
-          next_state <= Sint;
         ELSE
           next_state <= Srun;
         END IF;
@@ -68,17 +57,10 @@ ARCHITECTURE StateMachine OF Fetch_Control IS
         
         CASE current_state IS
         WHEN Sreset =>
-          mam <= "00";
           pcm <= "11";
-          im <= "00";
-          
-        WHEN Sint =>
-          mam <= "01";
-          pcm <= "11";
-          im <= "01";
+          im <= '0';
           
         WHEN Srun =>
-          mam <= "10";
           IF ((stall = '1') or (mdelay = '1')) THEN
             pcm <= "01";
           ELSIF (jump = '1') THEN
@@ -88,9 +70,9 @@ ARCHITECTURE StateMachine OF Fetch_Control IS
           END IF;
           
           IF ((stall = '1') or (mdelay = '1')) THEN
-            im <= "00";
+            im <= '0';
           ELSE
-            im <= "10";
+            im <= '1';
           END IF;
         END CASE;
       END PROCESS;
