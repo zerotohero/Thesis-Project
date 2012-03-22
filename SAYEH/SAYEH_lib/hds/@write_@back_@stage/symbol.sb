@@ -90,7 +90,7 @@ m 1
 decl (Decl
 n "addr"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 4
 suid 6,0
 )
@@ -125,7 +125,7 @@ port (LogicalPort
 decl (Decl
 n "reg_addr"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 3
 suid 9,0
 )
@@ -184,37 +184,37 @@ uid 71,0
 )
 *25 (MRCItem
 litem &14
-pos 0
+pos 5
 dimension 20
 uid 108,0
 )
 *26 (MRCItem
 litem &15
-pos 1
+pos 0
 dimension 20
 uid 116,0
 )
 *27 (MRCItem
 litem &16
-pos 2
+pos 1
 dimension 20
 uid 118,0
 )
 *28 (MRCItem
 litem &17
-pos 3
+pos 2
 dimension 20
 uid 120,0
 )
 *29 (MRCItem
 litem &18
-pos 4
+pos 3
 dimension 20
 uid 180,0
 )
 *30 (MRCItem
 litem &19
-pos 5
+pos 4
 dimension 20
 uid 210,0
 )
@@ -487,19 +487,19 @@ value "C:\\Users\\Christopher\\Documents\\HDL Designs\\HDS\\SAYEH\\SAYEH_lib\\hd
 )
 (vvPair
 variable "date"
-value "02/15/2012"
+value "02/26/2012"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -623,7 +623,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "22:49:33"
+value "18:44:59"
 )
 (vvPair
 variable "unit"
@@ -773,7 +773,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "27500,7500,32000,8500"
-st "addr : (1:0)"
+st "addr : (2:0)"
 ju 2
 blo "32000,8300"
 tm "CptPortNameMgr"
@@ -785,7 +785,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,72500,5200"
-st "addr         : OUT    std_logic_vector (1 DOWNTO 0) ;
+st "addr         : OUT    std_logic_vector (2 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -793,7 +793,7 @@ m 1
 decl (Decl
 n "addr"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 4
 suid 6,0
 )
@@ -913,7 +913,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,11500,22100,12500"
-st "reg_addr : (1:0)"
+st "reg_addr : (2:0)"
 blo "16000,12300"
 tm "CptPortNameMgr"
 )
@@ -924,14 +924,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,72500,4400"
-st "reg_addr     : IN     std_logic_vector (1 DOWNTO 0) ;
+st "reg_addr     : IN     std_logic_vector (2 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "reg_addr"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 3
 suid 9,0
 )
@@ -1633,6 +1633,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 216,0
+lastUid 262,0
 activeModelName "Symbol:CDM"
 )

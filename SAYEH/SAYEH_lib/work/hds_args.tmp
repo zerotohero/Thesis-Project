@@ -1,1 +1,1 @@
- -L SAYEH_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays -nopsl SAYEH_lib.ALU(Behavior)
+ -L SAYEH_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays -novopt SAYEH_lib.Magic(struct)

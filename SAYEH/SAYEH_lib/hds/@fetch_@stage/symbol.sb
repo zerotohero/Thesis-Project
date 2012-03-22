@@ -556,19 +556,19 @@ value "C:\\Users\\Christopher\\Documents\\HDL Designs\\HDS\\SAYEH\\SAYEH_lib\\hd
 )
 (vvPair
 variable "date"
-value "02/16/2012"
+value "02/26/2012"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "16"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -692,7 +692,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "06:51:22"
+value "07:23:18"
 )
 (vvPair
 variable "unit"
@@ -1874,6 +1874,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 200,0
+lastUid 315,0
 activeModelName "Symbol:CDM"
 )
